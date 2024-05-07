@@ -46,6 +46,17 @@
   font: var(--decorative);
 }
 
+.purpleGradient {
+  background-color: transparent;
+  background-image: linear-gradient(358deg, #1ca0ef 6%, #1ca0ef 10%, #a672fc 100%);
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+
 .b10 {
   background-color: var(--b10);
 }
@@ -61,8 +72,8 @@
   background-color: var(--b40);
 }
 
-.d10 {
-  background: var(--d10);
+.white {
+  background: var(--white);
 }
 .d12 {
   background-color: var(--d20);
@@ -70,8 +81,8 @@
 .d30 {
   background-color: var(--d30);
 }
-.d40 {
-  background-color: var(--d40);
+.black {
+  background-color: var(--black);
 }
 .w10 {
   background-color: var(--w10);
@@ -120,11 +131,15 @@
 }
 
 .shadow100 {
-  box-shadow: 0px 4px 12px -4px rgba(22, 34, 51, 0.12), 0px 16px 32px 0px rgba(22, 34, 51, 0.16);
+  box-shadow:
+    0px 4px 12px -4px rgba(22, 34, 51, 0.12),
+    0px 16px 32px 0px rgba(22, 34, 51, 0.16);
 }
 
 .shadow200 {
-  box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px 0px rgba(22, 34, 51, 0.08);
+  box-shadow:
+    0px 4px 8px -4px rgba(22, 34, 51, 0.08),
+    0px 16px 24px 0px rgba(22, 34, 51, 0.08);
 }
 
 .shadow300 {
@@ -192,4 +207,36 @@
 }
 .margin40 {
   margin: var(--size40);
+}
+.purpleGradientTop {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #1ca0ef 6%, #1ca0ef 10%, #a672fc 100%);
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+
+.purpleGradientLeft {
+  background-color: transparent;
+  background-image: linear-gradient(47deg, #1ca0ef 6%, #1ca0ef 10%, #a672fc 100%);
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+
+.purpleGradientRight {
+  background-color: transparent;
+  background-image: linear-gradient(323deg, #1ca0ef 6%, #1ca0ef 10%, #a672fc 100%);
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
 }
