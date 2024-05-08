@@ -4,6 +4,12 @@ import { createBoard } from '@wixc3/react-board';
 import StyleGuide_board_module from './style-guide.board.module.scss';
 import Classnames from 'classnames';
 import SectionSvg from '../../assets/section.svg';
+import Cloudy1Png from '../../assets/cloudy-1.png';
+import RainPng from '../../assets/rain.png';
+import CloudPng from '../../assets/cloud.png';
+import SnowstormPng from '../../assets/snowstorm.png';
+import SunPng from '../../assets/sun.png';
+import SunAndCloudPng from '../../assets/sun-and-cloud.png';
 
 export default createBoard({
     name: 'StyleGuide',
@@ -128,21 +134,19 @@ export default createBoard({
                         <div
                             className={Classnames(
                                 StyleGuide_board_module.colorContainer,
-                                'purpleGradient',
+                                'gradientTop',
                             )}
                         />
-                        <div className={StyleGuide_board_module.subtitleValue}>purpleGradient</div>
+                        <div className={StyleGuide_board_module.subtitleValue}>gradientTop</div>
                     </div>
                     <div>
                         <div
                             className={Classnames(
                                 StyleGuide_board_module.colorContainer,
-                                'purpleGradientTop',
+                                'gradientBottom',
                             )}
                         />
-                        <div className={StyleGuide_board_module.subtitleValue}>
-                            purpleGradientTop
-                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>gradientBottom</div>
                     </div>
                     <div>
                         <div
@@ -151,15 +155,12 @@ export default createBoard({
                                 'purpleGradientLeft',
                             )}
                         />
-                        <div className={StyleGuide_board_module.subtitleValue}>
-                            purpleGradientLeft
-                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>radientLeft</div>
                     </div>
                     <div>
                         <div
                             className={Classnames(
                                 StyleGuide_board_module.colorContainer,
-                                'b40',
                                 'purpleGradientRight',
                             )}
                         />
@@ -195,7 +196,7 @@ export default createBoard({
             <div className={StyleGuide_board_module.SectionContainer}>
                 <div className={StyleGuide_board_module.SectionTitle}>
                     <img src={SectionSvg} />
-                    <h2>Shadows</h2>
+                    <h2>Icons</h2>
                 </div>
                 <p className={StyleGuide_board_module.SectionSubtitle}>
                     Shadows help create the illusion of depth and dimension in a flat, 2D digital
@@ -205,35 +206,100 @@ export default createBoard({
                 </p>
             </div>
             <div className={StyleGuide_board_module.subsectionContainer}>
+                <h2 className={StyleGuide_board_module.subSectionTitle}>
+                    Primary / Purple Gradient
+                </h2>
                 <div className={StyleGuide_board_module.FlexContainer}>
                     <div>
                         <div
                             className={Classnames(
-                                'shadow100',
-                                StyleGuide_board_module.shadowContainer,
+                                'purpleGradient',
+                                StyleGuide_board_module.iconContainer,
                             )}
-                        />
-                        <div className={StyleGuide_board_module.subtitleValue}>shadow100</div>
+                        >
+                            <img src={Cloudy1Png} alt="cloudy" />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>cloudy</div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.iconContainer}>
+                            <img src={CloudPng} alt="cloud" />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>cloud</div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.iconContainer}>
+                            <img src={SunPng} alt="sun" />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>sun</div>
                     </div>
                     <div>
                         <div
                             className={Classnames(
-                                'shadow200',
-                                StyleGuide_board_module.shadowContainer,
+                                'purpleGradientTop',
+                                StyleGuide_board_module.iconContainer,
                             )}
-                        />
-                        <div className={StyleGuide_board_module.subtitleValue}>shadow200</div>
+                        >
+                            <img src={RainPng} alt="sun cloud and rain" />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>rain</div>
                     </div>
                     <div>
-                        <div
-                            className={Classnames(
-                                'shadow300',
-                                StyleGuide_board_module.shadowContainer,
-                            )}
-                        />
-                        <div className={StyleGuide_board_module.subtitleValue}>shadow300</div>
+                        <div className={StyleGuide_board_module.iconContainer}>
+                            <img src={SunAndCloudPng} />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>cloud-sun</div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.iconContainer}>
+                            <img src={SnowstormPng} alt="snowstorm" />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>snowstorm</div>
                     </div>
                 </div>
+            </div>
+            <div className={StyleGuide_board_module.SectionContainer}>
+                <div className={StyleGuide_board_module.SectionTitle}>
+                    <img src={SectionSvg} />
+                    <h2>Shadows</h2>
+                </div>
+                <div className={StyleGuide_board_module.subsectionContainer}>
+                    <div className={StyleGuide_board_module.FlexContainer}>
+                        <div>
+                            <div
+                                className={Classnames(
+                                    'shadow100',
+                                    StyleGuide_board_module.shadowContainer,
+                                )}
+                            />
+                            <div className={StyleGuide_board_module.subtitleValue}>shadow100</div>
+                        </div>
+                        <div>
+                            <div
+                                className={Classnames(
+                                    'shadow200',
+                                    StyleGuide_board_module.shadowContainer,
+                                )}
+                            />
+                            <div className={StyleGuide_board_module.subtitleValue}>shadow200</div>
+                        </div>
+                        <div>
+                            <div
+                                className={Classnames(
+                                    'shadow300',
+                                    StyleGuide_board_module.shadowContainer,
+                                )}
+                            />
+                            <div className={StyleGuide_board_module.subtitleValue}>shadow300</div>
+                        </div>
+                    </div>
+                </div>
+                <p className={StyleGuide_board_module.SectionSubtitle}>
+                    Shadows help create the illusion of depth and dimension in a flat, 2D digital
+                    space. By simulating how light interacts with objects in the real world, shadows
+                    visually separate elements, define their shapes, and show their relative
+                    positions.
+                </p>
             </div>
             <div className={StyleGuide_board_module.SectionContainer}>
                 <div className={StyleGuide_board_module.SectionTitle}>

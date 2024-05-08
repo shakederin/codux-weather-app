@@ -17,7 +17,10 @@
 
   --white: #ffffff;
   --black: #212325;
-
+  --gradientleft: linear-gradient(323deg, #1ca0ef 10%, #a672fc 100%);
+  --gradientRight: linear-gradient(27deg, #1ca0ef 10%, #a672fc 100%);
+  --gradientTop: linear-gradient(358deg, #1ca0ef 10%, #a672fc 100%);
+  --gradientBottom: linear-gradient(180deg, #1ca0ef 10%, #a672fc 100%);
 
   --size2: 2px;
   --size4: 4px;
