@@ -17,7 +17,7 @@ export default createBoard({
         <div className={Classnames(StyleGuide_board_module.root)}>
             <div className={StyleGuide_board_module.pageHeader}>
                 <h1 className={StyleGuide_board_module.TitleHeader}>Style Guide</h1>
-                <span className={StyleGuide_board_module.logo}>LOGO</span>
+                <span className={StyleGuide_board_module.logo}>weather app</span>
             </div>
             <div className={StyleGuide_board_module.SectionContainer}>
                 <div className={StyleGuide_board_module.SectionTitle}>
@@ -199,16 +199,11 @@ export default createBoard({
                     <h2>Icons</h2>
                 </div>
                 <p className={StyleGuide_board_module.SectionSubtitle}>
-                    Shadows help create the illusion of depth and dimension in a flat, 2D digital
-                    space. By simulating how light interacts with objects in the real world, shadows
-                    visually separate elements, define their shapes, and show their relative
-                    positions.
+                    Here you will find all the weather icons you need for your application
                 </p>
             </div>
             <div className={StyleGuide_board_module.subsectionContainer}>
-                <h2 className={StyleGuide_board_module.subSectionTitle}>
-                    Primary / Purple Gradient
-                </h2>
+                <h2 className={StyleGuide_board_module.subSectionTitle}>Weather Icons Sets</h2>
                 <div className={StyleGuide_board_module.FlexContainer}>
                     <div>
                         <div
@@ -263,43 +258,43 @@ export default createBoard({
                     <img src={SectionSvg} />
                     <h2>Shadows</h2>
                 </div>
-                <div className={StyleGuide_board_module.subsectionContainer}>
-                    <div className={StyleGuide_board_module.FlexContainer}>
-                        <div>
-                            <div
-                                className={Classnames(
-                                    'shadow100',
-                                    StyleGuide_board_module.shadowContainer,
-                                )}
-                            />
-                            <div className={StyleGuide_board_module.subtitleValue}>shadow100</div>
-                        </div>
-                        <div>
-                            <div
-                                className={Classnames(
-                                    'shadow200',
-                                    StyleGuide_board_module.shadowContainer,
-                                )}
-                            />
-                            <div className={StyleGuide_board_module.subtitleValue}>shadow200</div>
-                        </div>
-                        <div>
-                            <div
-                                className={Classnames(
-                                    'shadow300',
-                                    StyleGuide_board_module.shadowContainer,
-                                )}
-                            />
-                            <div className={StyleGuide_board_module.subtitleValue}>shadow300</div>
-                        </div>
-                    </div>
-                </div>
                 <p className={StyleGuide_board_module.SectionSubtitle}>
                     Shadows help create the illusion of depth and dimension in a flat, 2D digital
                     space. By simulating how light interacts with objects in the real world, shadows
                     visually separate elements, define their shapes, and show their relative
                     positions.
                 </p>
+            </div>
+            <div className={StyleGuide_board_module.subsectionContainer}>
+                <div className={StyleGuide_board_module.FlexContainer}>
+                    <div>
+                        <div
+                            className={Classnames(
+                                'shadow100',
+                                StyleGuide_board_module.shadowContainer,
+                            )}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>shadow100</div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(
+                                'shadow200',
+                                StyleGuide_board_module.shadowContainer,
+                            )}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>shadow200</div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(
+                                'shadow300',
+                                StyleGuide_board_module.shadowContainer,
+                            )}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>shadow300</div>
+                    </div>
+                </div>
             </div>
             <div className={StyleGuide_board_module.SectionContainer}>
                 <div className={StyleGuide_board_module.SectionTitle}>
