@@ -10,6 +10,9 @@ import CloudPng from '../../assets/cloud.png';
 import SnowstormPng from '../../assets/snowstorm.png';
 import SunPng from '../../assets/sun.png';
 import SunAndCloudPng from '../../assets/sun-and-cloud.png';
+import WindPng from '../../assets/wind.png';
+import DropsPng from '../../assets/drops.png';
+import ThermometerPng from '../../assets/thermometer.png';
 
 export default createBoard({
     name: 'StyleGuide',
@@ -250,6 +253,32 @@ export default createBoard({
                             <img src={SnowstormPng} alt="snowstorm" />
                         </div>
                         <div className={StyleGuide_board_module.subtitleValue}>snowstorm</div>
+                    </div>
+                </div>
+                <div className={StyleGuide_board_module.FlexContainer}>
+                    <div>
+                        <div className={StyleGuide_board_module.iconContainer}>
+                            <div>
+                                <img src={WindPng} alt="snowstorm" />
+                            </div>
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>wind</div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.iconContainer}>
+                            <div>
+                                <img src={DropsPng} alt="snowstorm" />
+                            </div>
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>drops</div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.iconContainer}>
+                            <div>
+                                <img src={ThermometerPng} alt="snowstorm" />
+                            </div>
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>thermometer</div>
                     </div>
                 </div>
             </div>
