@@ -1,0 +1,34 @@
+:root {
+  --h1Normal: normal 400 28px / normal DM Sans, sans-serif;
+  --h1Light: normal 300 42px / normal DM Sans, sans-serif;
+  --subtitle: normal 700 28px / normal DM Sans, sans-serif;
+
+  --subtitleNormal: normal 400 28px / normal DM Sans, sans-serif;
+  --h2Light: normal 300 28px / normal DM Sans, sans-serif;
+  --h2Bold: normal 4 22px / normal DM Sans, sans-serif;
+
+  --bodySmall: normal 400 18px / normal DM Sans, sans-serif;
+  --pLight: normal 300 12px / normal DM Sans, sans-serif;
+  --bodyRegular: normal 400 22px / normal DM Sans, sans-serif;
+
+  --smallNormal: normal 400 11px / normal DM Sans, sans-serif;
+  --smallLight: normal 300 11px / normal DM Sans, sans-serif;
+  --decorative: normal 700 140px / normal DM Sans, sans-serif;
+
+  --white: #ffffff;
+  --black: #212325;
+  --gradientleft: linear-gradient(323deg, #1ca0ef 10%, #a672fc 100%);
+  --gradientRight: linear-gradient(27deg, #1ca0ef 10%, #a672fc 100%);
+  --gradientTop: linear-gradient(358deg, #1ca0ef 10%, #a672fc 100%);
+  --gradientBottom: linear-gradient(180deg, #1ca0ef 10%, #a672fc 100%);
+
+  --size2: 2px;
+  --size4: 4px;
+  --size6: 6px;
+  --size8: 8px;
+  --size12: 12px;
+  --size16: 16px;
+  --size24: 24px;
+  --size32: 32px;
+  --size40: 40px;
+}

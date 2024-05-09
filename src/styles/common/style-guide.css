@@ -1,0 +1,163 @@
+.checkVar {
+  background-color: var(--dana-var);
+}
+
+.titleNormal {
+  font: var(--h1Normal);
+}
+
+.h1Light {
+  font: var(--h1Light);
+}
+.subtitle {
+  font: var(--subtitle);
+}
+
+.subtitleNormal {
+  font: var(--subtitleNormal);
+}
+
+.h2Light {
+  font: var(--h2Light);
+}
+.h2Bold {
+  font: var(--h2Bold);
+}
+
+.bodySmall {
+  font: var(--bodySmall);
+}
+
+.pLight {
+  font: var(--pLight);
+}
+.bodyRegular {
+  font: var(--bodyRegular);
+}
+
+.smallNormal {
+  font: var(--smallNormal);
+}
+
+.smallLight {
+  font: var(--smallLight);
+}
+.decorative {
+  font: var(--decorative);
+}
+
+.gradientBottom {
+   background: var(--gradientBottom);
+
+}
+
+.purpleGradientLeft {
+  background: var(--gradientleft);
+}
+
+.purpleGradientRight {
+  background: var(--gradientRight);
+}
+
+.gradientTop {
+  background: var(--gradientTop);
+}
+
+
+
+.white {
+  background: var(--white);
+}
+
+
+.black {
+  background-color: var(--black);
+}
+
+
+
+
+
+
+
+
+
+.shadow100 {
+  box-shadow:
+    0px 4px 12px -4px rgba(22, 34, 51, 0.12),
+    0px 16px 32px 0px rgba(22, 34, 51, 0.16);
+}
+
+.shadow200 {
+  box-shadow:
+    0px 4px 8px -4px rgba(22, 34, 51, 0.08),
+    0px 16px 24px 0px rgba(22, 34, 51, 0.08);
+}
+
+.shadow300 {
+  box-shadow: 0 3px 16px -4px rgba(22, 34, 51, 0.2);
+}
+.padding2 {
+  padding: var(--size2);
+}
+
+.padding4 {
+  padding: var(--size4);
+}
+.padding6 {
+  padding: var(--size6);
+}
+
+.padding8 {
+  padding: var(--size8);
+}
+
+.padding12 {
+  padding: var(--size12);
+}
+.padding16 {
+  padding: var(--size16);
+}
+
+.padding24 {
+  padding: var(--size24);
+}
+.padding32 {
+  padding: var(--size32);
+}
+.padding40 {
+  padding: var(--size40);
+}
+
+.margin2 {
+  margin: var(--size2);
+}
+
+.margin4 {
+  margin: var(--size4);
+}
+.margin6 {
+  margin: var(--size6);
+}
+
+.margin8 {
+  margin: var(--size8);
+}
+
+.margin12 {
+  margin: var(--size12);
+}
+.margin16 {
+  margin: var(--size16);
+}
+
+.margin24 {
+  margin: var(--size24);
+}
+.margin32 {
+  margin: var(--size32);
+}
+.margin40 {
+  margin: var(--size40);
+}
+
