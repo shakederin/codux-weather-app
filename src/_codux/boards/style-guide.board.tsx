@@ -10,6 +10,13 @@ import CloudPng from '../../assets/cloud.png';
 import SnowstormPng from '../../assets/snowstorm.png';
 import SunPng from '../../assets/sun.png';
 import SunAndCloudPng from '../../assets/sun-and-cloud.png';
+import WindPng from '../../assets/wind.png';
+import DropsPng from '../../assets/drops.png';
+import ThermometerPng from '../../assets/thermometer.png';
+import { ReactComponent as SearchSvg } from '../../assets/search.svg';
+import { ReactComponent as HomeSvg } from '../../assets/home.svg';
+import { ReactComponent as MultiRowSvg } from '../../assets/multiRow.svg';
+import { ReactComponent as SeatRowSvg } from '../../assets/seatRow.svg';
 
 export default createBoard({
     name: 'StyleGuide',
@@ -214,12 +221,25 @@ export default createBoard({
                     </div>
                     <div>
                         <div
+                            className={Classnames(
+                                StyleGuide_board_module.colorContainer,
+                                'bgblack',
+                            )}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            bgblack
+                            <br />
+                            #1A1C1E{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div
                             className={Classnames(StyleGuide_board_module.colorContainer, 'black')}
                         />
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            Black
+                            black
                             <br />
-                            #2B2B31{' '}
+                            #212325{' '}
                         </div>
                     </div>
                 </div>
@@ -281,6 +301,56 @@ export default createBoard({
                             <img src={SnowstormPng} alt="snowstorm" />
                         </div>
                         <div className={StyleGuide_board_module.subtitleValue}>snowstorm</div>
+                    </div>
+                </div>
+                <div className={StyleGuide_board_module.FlexContainer}>
+                    <div>
+                        <div className={StyleGuide_board_module.iconContainer}>
+                            <div>
+                                <img src={WindPng} alt="snowstorm" />
+                            </div>
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>wind</div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.iconContainer}>
+                            <div>
+                                <img src={DropsPng} alt="snowstorm" />
+                            </div>
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>drops</div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.iconContainer}>
+                            <div>
+                                <img src={ThermometerPng} alt="snowstorm" />
+                            </div>
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>thermometer</div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.iconContainer}>
+                            <SearchSvg />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>search</div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.iconContainer}>
+                            <HomeSvg />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>home</div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.iconContainer}>
+                            <MultiRowSvg />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>multiRow</div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.iconContainer}>
+                            <SeatRowSvg />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>seatRow</div>
                     </div>
                 </div>
             </div>

@@ -3,12 +3,8 @@
   height: 96%;
   border-radius: 35px;
   background-color: transparent;
-  background-image: linear-gradient(
-    1deg,
-    rgb(28, 160, 239) 6%,
-    rgb(28, 160, 239) 10%,
-    rgb(166, 114, 252) 100%
-  );
+  background-image: repeat padding-box border-box 0% 0% / auto auto scroll
+    linear-gradient(1deg, rgb(28, 160, 239) 6%, rgb(28, 160, 239) 10%, rgb(166, 114, 252) 100%);
   background-position: 0%;
   background-size: auto;
   background-repeat: repeat;
@@ -16,6 +12,11 @@
   background-origin: padding-box;
   background-clip: border-box;
   margin: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  color: var(--white);
 }
 .features {
   width: 30%;
