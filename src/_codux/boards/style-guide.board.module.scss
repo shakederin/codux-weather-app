@@ -157,11 +157,12 @@
 }
 
 .iconContainer {
-  width: 88px;
-  height: 68px;
   border: 1px solid #e5e5e5;
   border-radius: 8px;
   margin-bottom: 6px;
   display: flex;
   justify-content: center;
+  height: 68px;
+  width: 88px;
+  align-items: center;
 }
