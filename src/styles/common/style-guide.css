@@ -47,8 +47,7 @@
 }
 
 .gradientBottom {
-   background: var(--gradientBottom);
-
+  background: var(--gradientBottom);
 }
 
 .purpleGradientLeft {
@@ -63,24 +62,13 @@
   background: var(--gradientTop);
 }
 
-
-
 .white {
   background: var(--white);
 }
 
-
-.black {
-  background-color: var(--black);
+.bgblack {
+  background-color: var(--bgblack);
 }
-
-
-
-
-
-
-
-
 
 .shadow100 {
   box-shadow:
@@ -161,3 +149,6 @@
   margin: var(--size40);
 }
 
+.black {
+  background-color: var(--black);
+}

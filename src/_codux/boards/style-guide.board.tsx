@@ -186,12 +186,25 @@ export default createBoard({
                     </div>
                     <div>
                         <div
+                            className={Classnames(
+                                StyleGuide_board_module.colorContainer,
+                                'bgblack',
+                            )}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            bgblack
+                            <br />
+                            #1A1C1E{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div
                             className={Classnames(StyleGuide_board_module.colorContainer, 'black')}
                         />
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            Black
+                            black
                             <br />
-                            #2B2B31{' '}
+                            #212325{' '}
                         </div>
                     </div>
                 </div>
