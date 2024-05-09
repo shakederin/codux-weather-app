@@ -22,6 +22,12 @@
   --gradientRight: linear-gradient(27deg, #1ca0ef 10%, #a672fc 100%);
   --gradientTop: linear-gradient(358deg, #1ca0ef 10%, #a672fc 100%);
   --gradientBottom: linear-gradient(180deg, #1ca0ef 10%, #a672fc 100%);
+  --grayDay: radial-gradient(83.84% 100% at 50% 0%, #d0e0f2 0%, #b2bdc9 43.05%, #919293 100%);
+  --sunnyDay:radial-gradient(83.84% 100% at 50% 0%, #D1E6FF 0%, #8DBEED 27%, #1990E5 58.5%, #0D72CB 100%);
+  --night:radial-gradient(93.62% 111.67% at 50% -11.67%, #568FD2 0%, #2F64A1 48.37%, #063666 100%);
+
+
+  
 
   --size2: 2px;
   --size4: 4px;
