@@ -13,6 +13,10 @@ import SunAndCloudPng from '../../assets/sun-and-cloud.png';
 import WindPng from '../../assets/wind.png';
 import DropsPng from '../../assets/drops.png';
 import ThermometerPng from '../../assets/thermometer.png';
+import { ReactComponent as SearchSvg } from '../../assets/search.svg';
+import { ReactComponent as HomeSvg } from '../../assets/home.svg';
+import { ReactComponent as MultiRowSvg } from '../../assets/multiRow.svg';
+import { ReactComponent as SeatRowSvg } from '../../assets/seatRow.svg';
 
 export default createBoard({
     name: 'StyleGuide',
@@ -292,6 +296,30 @@ export default createBoard({
                             </div>
                         </div>
                         <div className={StyleGuide_board_module.subtitleValue}>thermometer</div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.iconContainer}>
+                            <SearchSvg />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>search</div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.iconContainer}>
+                            <HomeSvg />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>home</div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.iconContainer}>
+                            <MultiRowSvg />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>multiRow</div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.iconContainer}>
+                            <SeatRowSvg />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>seatRow</div>
                     </div>
                 </div>
             </div>
