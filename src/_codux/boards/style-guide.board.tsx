@@ -169,6 +169,37 @@ export default createBoard({
                         </div>
                     </div>
                 </div>
+                <div className={StyleGuide_board_module.FlexContainer}>
+                    <div>
+                        <div
+                            className={Classnames(
+                                StyleGuide_board_module.colorContainer,
+                                'grayDay',
+                            )}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>grayDay</div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(
+                                StyleGuide_board_module.colorContainer,
+                                'gradientBottom',
+                                'sunnyDay',
+                            )}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>sunnyDay</div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(
+                                StyleGuide_board_module.colorContainer,
+                                'purpleGradientLeft',
+                                'night',
+                            )}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>night</div>
+                    </div>
+                </div>
                 <h2 className={StyleGuide_board_module.subSectionTitle}>Secondary / Dark</h2>
                 <div className={StyleGuide_board_module.FlexContainer}>
                     <div>

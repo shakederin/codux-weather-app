@@ -47,8 +47,7 @@
 }
 
 .gradientBottom {
-   background: var(--gradientBottom);
-
+  background: var(--gradientBottom);
 }
 
 .purpleGradientLeft {
@@ -63,24 +62,17 @@
   background: var(--gradientTop);
 }
 
-
+.grayDay {
+  background: var(--grayDay);
+}
 
 .white {
   background: var(--white);
 }
 
-
 .black {
   background-color: var(--black);
 }
-
-
-
-
-
-
-
-
 
 .shadow100 {
   box-shadow:
@@ -160,4 +152,9 @@
 .margin40 {
   margin: var(--size40);
 }
-
+.sunnyDay {
+  background: var(--sunnyDay);
+}
+.night {
+  background: var(--night);
+}
