@@ -3,7 +3,20 @@ import { Navbar } from '../../../components/navbar/navbar';
 
 export default createBoard({
     name: 'Navbar',
-    Board: () => <Navbar />,
+    Board: () => (
+        <Navbar
+            navigateToSearch={function (): void {
+                throw new Error('Function not implemented.');
+            }}
+            navigateToHome={function (): void {
+                throw new Error('Function not implemented.');
+            }}
+            navigateToForecast={function (): void {
+                throw new Error('Function not implemented.');
+            }}
+            selected={1}
+        />
+    ),
     isSnippet: true,
     environmentProps: {
         windowWidth: 430,

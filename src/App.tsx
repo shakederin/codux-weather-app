@@ -19,7 +19,7 @@ function App() {
             />
             <ExtraInfoWrapper data={{ Wind: '5-8 km/h', Pressure: '1000 MB', Humidity: '51%' }} />
             <Forecast />
-            <Navbar />
+            <Navbar navigateToHome={undefined} navigateToSearch={undefined} selected={1} />
         </div>
     );
 }

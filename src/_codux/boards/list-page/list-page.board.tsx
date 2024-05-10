@@ -6,7 +6,9 @@ export default createBoard({
     Board: () => <ListPage />,
     isSnippet: true,
     environmentProps: {
-        windowWidth: 430,
-        windowHeight: 932,
+        windowWidth: 1024,
+        windowHeight: 988,
+        windowBackgroundColor: '#efaff9',
+        canvasBackgroundColor: '#efaff9',
     },
 });
