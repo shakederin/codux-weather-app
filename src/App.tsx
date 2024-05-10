@@ -8,7 +8,13 @@ import { ExtraInfoWrapper } from './components/extra-info-wrapper/extra-info-wra
 function App() {
     return (
         <div className={styles.App}>
-            <Main />
+            <Main
+                data={{
+                    date: '25 January, Wednesday',
+                    realFeel: 10,
+                    temp: -18,
+                }}
+            />
             <ExtraInfoWrapper data={{ Wind: '5-8 km/h', Pressure: '1000 MB', Humidity: '51%' }} />
             <Forecast />
             <Navbar />
