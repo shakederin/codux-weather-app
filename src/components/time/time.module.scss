@@ -1,0 +1,15 @@
+.root {
+  color: var(--white);
+  background-color: var(--bgblack);
+  width: 20%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weather {
+  width: 50%;
+}
+.temp {
+  margin: 5px;
+}
