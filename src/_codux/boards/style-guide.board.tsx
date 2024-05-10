@@ -190,7 +190,6 @@ export default createBoard({
                         <div
                             className={Classnames(
                                 StyleGuide_board_module.colorContainer,
-                                'gradientBottom',
                                 'sunnyDay',
                             )}
                         />
@@ -198,11 +197,7 @@ export default createBoard({
                     </div>
                     <div>
                         <div
-                            className={Classnames(
-                                StyleGuide_board_module.colorContainer,
-                                'purpleGradientLeft',
-                                'night',
-                            )}
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'night')}
                         />
                         <div className={StyleGuide_board_module.subtitleValue}>night</div>
                     </div>
