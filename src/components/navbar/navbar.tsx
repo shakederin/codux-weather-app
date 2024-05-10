@@ -1,8 +1,9 @@
+import '../../styles/common/style-guide.css';
 import classNames from 'classnames';
 import styles from './navbar.module.scss';
-import BinocularsSvg from '../../assets/binoculars.svg';
-import SunSvg from '../../assets/sun.svg';
-import SmileSvg from '../../assets/smile.svg';
+import { ReactComponent as SearchSvg } from '../../assets/search.svg';
+import { ReactComponent as HomeSvg } from '../../assets/home.svg';
+import { ReactComponent as SeatRowSvg } from '../../assets/seatRow.svg';
 
 export interface NavbarProps {
     className?: string;
@@ -14,11 +15,11 @@ export interface NavbarProps {
  */
 export const Navbar = ({ className }: NavbarProps) => {
     return (
-        <div className={classNames(styles.root, className)}>
-            <div className={styles['icon-wraper']}>
-                <img src={SmileSvg} alt="" />
-                <img src={SunSvg} alt="" />
-                <img src={BinocularsSvg} alt="" />
+        <div className={classNames(styles.root, className, 'black')}>
+            <div className={styles['wrapper-svg']}>
+                <SearchSvg className={classNames(styles['navbar-svg'], 'white-svg')} />
+                <HomeSvg className={classNames(styles['navbar-svg'], 'white-svg')} />
+                <SeatRowSvg className={classNames(styles['navbar-svg'], 'white-svg')} />
             </div>
         </div>
     );

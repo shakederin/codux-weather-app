@@ -149,3 +149,7 @@
 .margin40 {
   margin: var(--size40);
 }
+
+.white-svg {
+  filter: invert(93%) sepia(55%) saturate(0%) hue-rotate(116deg) brightness(110%) contrast(104%);
+}
