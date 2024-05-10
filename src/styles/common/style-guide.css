@@ -161,3 +161,14 @@
 .white-svg {
   filter: invert(93%) sepia(55%) saturate(0%) hue-rotate(116deg) brightness(110%) contrast(104%);
 }
+
+.layout {
+  width: 430px;
+  height: 932px;
+  border-radius: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+}

@@ -3,7 +3,7 @@ import { Location } from '../../../components/location/location';
 
 export default createBoard({
     name: 'Location',
-    Board: () => <Location country={'Israel'} city={'Tel-Aviv'} temp={30} />,
+    Board: () => <Location country={'Israel'} city={'Tel-Aviv'} temp={30} className="sunnyDay" />,
     isSnippet: true,
     environmentProps: {
         windowWidth: 430,
@@ -12,7 +12,7 @@ export default createBoard({
         canvasHeight: 932,
         canvasBackgroundColor: '#ffffff',
         canvasMargin: {
-            left: 21.5,
+            left: 0,
         },
         windowBackgroundColor: '#ffffff',
     },

@@ -1,13 +1,15 @@
+import './styles/common/style-guide.css';
 import styles from './App.module.scss';
 import { Main } from './components/main/main';
 import { ExtraInfo } from './components/extra-info/extra-info';
 import { Navbar } from './components/navbar/navbar';
 import { Forecast } from './components/forecast/forecast';
 import { ExtraInfoWrapper } from './components/extra-info-wrapper/extra-info-wrapper';
+import Classnames from 'classnames';
 
 function App() {
     return (
-        <div className={styles.App}>
+        <div className="layout">
             <Main
                 data={{
                     date: '25 January, Wednesday',
