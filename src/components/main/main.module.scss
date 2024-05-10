@@ -32,13 +32,15 @@
   align-items: start;
   height: 100%;
   z-index: 1;
-  width: 60%;
+  width: 50%;
+  font-weight: 400;
 }
 .big-font {
   font-size: 80px;
   line-height: 1;
   display: flex;
   justify-content: end;
+  font-weight: 600;
 }
 
 .icon {
