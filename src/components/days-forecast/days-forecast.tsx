@@ -5,6 +5,7 @@ import sun from '../../assets/sun.png';
 import cloud from '../../assets/cloud.png';
 import rain from '../../assets/rain.png';
 import { ForecastRow } from '../forecast-row/forecast-row';
+import ForecastRow_module from '../forecast-row/forecast-row.module.scss';
 
 export interface DaysForecastProps {
     className?: string;
@@ -18,7 +19,9 @@ export interface DaysForecastProps {
 export const DaysForecast = ({ className }: DaysForecastProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <div className={styles.forecastHeader}>Next days forecast </div>
+            <div className={classNames(styles.forecastHeader, 'bodySmall')}>
+                Next days forecast{' '}
+            </div>
             <ForecastRow
                 data={[
                     {
